@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+from wtforms import Form, BooleanField, TextField, PasswordField, validators
+
 app= Flask(__name__)
 
 @app.route('/')
